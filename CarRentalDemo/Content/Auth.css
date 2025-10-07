@@ -1,0 +1,178 @@
+﻿body {
+    overflow-y: auto !important;
+}
+.auth-page {
+    min-height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: var(--spacing-lg);
+    background: linear-gradient(135deg, #8fa5e5 0%, #a8b9e8 100%);
+    position: relative;
+    overflow-y: auto; 
+}
+
+.auth-container {
+    width: 100%;
+    max-width: 420px;
+    position: relative;
+    z-index: 1;
+}
+
+.auth-header {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.auth-logo {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    background: var(--primary-gradient);
+    color: var(--white);
+    border-radius: 18px;
+    margin-bottom: var(--spacing-sm);
+    box-shadow: 0 8px 24px rgba(107, 141, 214, 0.35);
+}
+
+.auth-title {
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--white);
+    margin-bottom: 0.25rem;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.auth-subtitle {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.95);
+    font-weight: 500;
+    margin-bottom: var(--spacing-sm);
+}
+
+.auth-page .form-group {
+    margin-bottom: var(--spacing-sm);
+}
+
+.auth-page .form-label {
+    color: var(--white);
+    font-size: 0.95rem;
+    font-weight: 700;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+}
+
+.auth-page .form-input {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    padding: 0.75rem 0.75rem 0.75rem 2.8rem;
+}
+
+    .auth-page .form-input:focus {
+        background: var(--white);
+        border-color: var(--white);
+        box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.25);
+    }
+   
+
+.auth-page .alert {
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    margin-bottom: var(--spacing-md);
+}
+
+.auth-page .language-switcher {
+    margin: 0 auto var(--spacing-md) auto;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.auth-page .btn-full {
+    margin-top: var(--spacing-sm);
+    padding: 0.85rem var(--spacing-lg);
+}
+
+.auth-footer,
+.auth-actions {
+    margin-top: var(--spacing-md);
+    padding-top: var(--spacing-md);
+    border-top: 2px solid rgba(255, 255, 255, 0.25);
+    text-align: center;
+}
+
+.auth-link,
+.auth-register-link {
+    color: var(--white);
+    text-decoration: none;
+    font-weight: 600;
+    transition: all var(--transition-base);
+    padding: var(--spacing-xs) var(--spacing-sm);
+    border-radius: var(--radius-md);
+    display: inline-block;
+}
+
+    .auth-link:hover,
+    .auth-register-link:hover {
+        color: var(--accent-light);
+        transform: translateY(-1px);
+        text-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .auth-link a {
+        color: var(--white);
+        text-decoration: underline;
+        font-weight: 700;
+    }
+
+        .auth-link a:hover {
+            color: var(--accent-light);
+        }
+
+.demo-info {
+    margin-top: var(--spacing-md);
+    padding: var(--spacing-md);
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    border-radius: var(--radius-lg);
+    text-align: center;
+    color: var(--white);
+    font-size: 0.9rem;
+}
+
+    .demo-info p {
+        margin: 0.25rem 0;
+    }
+
+.auth-page .form-input.error,
+.auth-page .form-input.error:focus {
+    background: rgba(255, 255, 255, 0.95) !important;
+    border: 2px solid var(--error) !important; 
+    color: var(--gray-900) !important; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08), 0 0 0 3px rgba(229, 115, 115, 0.5) !important; 
+}
+
+   
+
+
+.auth-page .input-wrapper {
+    display: flex !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    height: auto !important;
+    min-height: 44px !important;
+    position: relative !important;
+}
+
+.auth-page .form-input {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    position: relative !important;
+    height: 44px !important;
+    min-height: 44px !important;
+}

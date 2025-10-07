@@ -1,0 +1,158 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sezen\\Desktop\\CarRentalDemo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A65FB0FF-CD82-4A46-AFB8-DB3202801893}|CarRentalDemo\\CarRentalDemo.csproj|c:\\users\\sezen\\desktop\\carrentaldemo\\carrentaldemo\\scripts\\calendarvalidation.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A65FB0FF-CD82-4A46-AFB8-DB3202801893}|CarRentalDemo\\CarRentalDemo.csproj|solutionrelative:carrentaldemo\\scripts\\calendarvalidation.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A65FB0FF-CD82-4A46-AFB8-DB3202801893}|CarRentalDemo\\CarRentalDemo.csproj|c:\\users\\sezen\\desktop\\carrentaldemo\\carrentaldemo\\scripts\\validation.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A65FB0FF-CD82-4A46-AFB8-DB3202801893}|CarRentalDemo\\CarRentalDemo.csproj|solutionrelative:carrentaldemo\\scripts\\validation.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A65FB0FF-CD82-4A46-AFB8-DB3202801893}|CarRentalDemo\\CarRentalDemo.csproj|c:\\users\\sezen\\desktop\\carrentaldemo\\carrentaldemo\\rentalrequest.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A65FB0FF-CD82-4A46-AFB8-DB3202801893}|CarRentalDemo\\CarRentalDemo.csproj|solutionrelative:carrentaldemo\\rentalrequest.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A65FB0FF-CD82-4A46-AFB8-DB3202801893}|CarRentalDemo\\CarRentalDemo.csproj|c:\\users\\sezen\\desktop\\carrentaldemo\\carrentaldemo\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A65FB0FF-CD82-4A46-AFB8-DB3202801893}|CarRentalDemo\\CarRentalDemo.csproj|solutionrelative:carrentaldemo\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A65FB0FF-CD82-4A46-AFB8-DB3202801893}|CarRentalDemo\\CarRentalDemo.csproj|C:\\Users\\sezen\\Desktop\\CarRentalDemo\\carrentaldemo\\global.asax||{4D30FDB3-AB3E-4810-B6F2-64627BCCA384}",
+      "RelativeMoniker": "D:0:0:{A65FB0FF-CD82-4A46-AFB8-DB3202801893}|CarRentalDemo\\CarRentalDemo.csproj|solutionrelative:carrentaldemo\\global.asax||{4D30FDB3-AB3E-4810-B6F2-64627BCCA384}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A65FB0FF-CD82-4A46-AFB8-DB3202801893}|CarRentalDemo\\CarRentalDemo.csproj|C:\\Users\\sezen\\Desktop\\CarRentalDemo\\carrentaldemo\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A65FB0FF-CD82-4A46-AFB8-DB3202801893}|CarRentalDemo\\CarRentalDemo.csproj|solutionrelative:carrentaldemo\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A65FB0FF-CD82-4A46-AFB8-DB3202801893}|CarRentalDemo\\CarRentalDemo.csproj|C:\\Users\\sezen\\Desktop\\CarRentalDemo\\carrentaldemo\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A65FB0FF-CD82-4A46-AFB8-DB3202801893}|CarRentalDemo\\CarRentalDemo.csproj|solutionrelative:carrentaldemo\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 189,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 300,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CalendarValidation.js",
+              "DocumentMoniker": "C:\\Users\\sezen\\Desktop\\CarRentalDemo\\CarRentalDemo\\Scripts\\CalendarValidation.js",
+              "RelativeDocumentMoniker": "CarRentalDemo\\Scripts\\CalendarValidation.js",
+              "ToolTip": "C:\\Users\\sezen\\Desktop\\CarRentalDemo\\CarRentalDemo\\Scripts\\CalendarValidation.js",
+              "RelativeToolTip": "CarRentalDemo\\Scripts\\CalendarValidation.js",
+              "ViewState": "AgIAAOEBAAAAAAAAAAAAAOEBAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-07T18:21:33.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "validation.js",
+              "DocumentMoniker": "C:\\Users\\sezen\\Desktop\\CarRentalDemo\\CarRentalDemo\\Scripts\\validation.js",
+              "RelativeDocumentMoniker": "CarRentalDemo\\Scripts\\validation.js",
+              "ToolTip": "C:\\Users\\sezen\\Desktop\\CarRentalDemo\\CarRentalDemo\\Scripts\\validation.js",
+              "RelativeToolTip": "CarRentalDemo\\Scripts\\validation.js",
+              "ViewState": "AgIAAMkBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-07T18:21:27.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RentalRequest.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\sezen\\Desktop\\CarRentalDemo\\CarRentalDemo\\RentalRequest.aspx.cs",
+              "RelativeDocumentMoniker": "CarRentalDemo\\RentalRequest.aspx.cs",
+              "ToolTip": "C:\\Users\\sezen\\Desktop\\CarRentalDemo\\CarRentalDemo\\RentalRequest.aspx.cs",
+              "RelativeToolTip": "CarRentalDemo\\RentalRequest.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJwAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T18:19:18.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\sezen\\Desktop\\CarRentalDemo\\CarRentalDemo\\Web.config",
+              "RelativeDocumentMoniker": "CarRentalDemo\\Web.config",
+              "ToolTip": "C:\\Users\\sezen\\Desktop\\CarRentalDemo\\CarRentalDemo\\Web.config",
+              "RelativeToolTip": "CarRentalDemo\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-10-07T18:14:32.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Global.asax",
+              "DocumentMoniker": "C:\\Users\\sezen\\Desktop\\CarRentalDemo\\CarRentalDemo\\Global.asax",
+              "RelativeDocumentMoniker": "CarRentalDemo\\Global.asax",
+              "ToolTip": "C:\\Users\\sezen\\Desktop\\CarRentalDemo\\CarRentalDemo\\Global.asax",
+              "RelativeToolTip": "CarRentalDemo\\Global.asax",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000179|",
+              "WhenOpened": "2025-10-07T18:13:53.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "C:\\Users\\sezen\\Desktop\\CarRentalDemo\\CarRentalDemo\\Global.asax.cs",
+              "RelativeDocumentMoniker": "CarRentalDemo\\Global.asax.cs",
+              "ToolTip": "C:\\Users\\sezen\\Desktop\\CarRentalDemo\\CarRentalDemo\\Global.asax.cs",
+              "RelativeToolTip": "CarRentalDemo\\Global.asax.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T18:11:41.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Site.css",
+              "DocumentMoniker": "C:\\Users\\sezen\\Desktop\\CarRentalDemo\\CarRentalDemo\\Content\\Site.css",
+              "RelativeDocumentMoniker": "CarRentalDemo\\Content\\Site.css",
+              "ToolTip": "C:\\Users\\sezen\\Desktop\\CarRentalDemo\\CarRentalDemo\\Content\\Site.css",
+              "RelativeToolTip": "CarRentalDemo\\Content\\Site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-07T18:08:36.289Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

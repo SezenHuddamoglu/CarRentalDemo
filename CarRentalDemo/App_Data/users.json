@@ -1,0 +1,30 @@
+[
+  {
+    "Id": "1",
+    "Email": "admin@rentacar.com",
+    "Password": "Admin123",
+    "FullName": "Admin User",
+    "CreatedDate": "2025-01-10T00:00:00"
+  },
+  {
+    "Id": "2",
+    "Email": "user@rentacar.com",
+    "Password": "user123",
+    "FullName": "Test User",
+    "CreatedDate": "2025-01-10T00:00:00"
+  },
+  {
+    "Id": "32bffdf2-2dba-4acc-a380-0df70ee573c2",
+    "Email": "user@example.com",
+    "Password": "User123",
+    "FullName": "Example User",
+    "CreatedDate": "2025-10-05T11:24:52.4064177+03:00"
+  },
+  {
+    "Id": "77bd0cf5-d67c-4892-89cb-555b01b9c6a6",
+    "Email": "user2@example.com",
+    "Password": "User123",
+    "FullName": "Example User",
+    "CreatedDate": "2025-10-07T14:03:11.4027259+03:00"
+  }
+]
