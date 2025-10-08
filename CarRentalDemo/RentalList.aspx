@@ -79,8 +79,7 @@
                                 <asp:TemplateField HeaderText="Request Date" HeaderStyle-Width="140px" ItemStyle-HorizontalAlign="Center">
                                     <ItemTemplate>
                                         <div style="font-weight: 600; color: #475569;">
-                                            <%# Eval("RequestDate", "{0:dd/MM/yyyy}") %><br />
-                                            <small style="color: #64748b; font-weight: 400;"><%# Eval("RequestDate", "{0:HH:mm}") %></small>
+                                            <%# Eval("RequestDate", "{0:dd/MM/yyyy}") %>
                                         </div>
                                     </ItemTemplate>
                                 </asp:TemplateField>

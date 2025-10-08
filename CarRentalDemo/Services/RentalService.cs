@@ -1,3 +1,4 @@
+﻿
 ﻿using CarRentalDemo.Models;
 using System;
 using System.Collections.Generic;
@@ -10,7 +11,6 @@ namespace CarRentalDemo.Services
 {
     public class RentalService
     {
-
         private string dataFilePath;
         private JavaScriptSerializer serializer;
 
@@ -19,13 +19,11 @@ namespace CarRentalDemo.Services
             dataFilePath = HttpContext.Current.Server.MapPath("~/App_Data/rentals.json");
             serializer = new JavaScriptSerializer();
 
-
             string directory = Path.GetDirectoryName(dataFilePath);
             if (!Directory.Exists(directory))
             {
                 Directory.CreateDirectory(directory);
             }
-
 
             if (!File.Exists(dataFilePath))
             {
@@ -36,6 +34,7 @@ namespace CarRentalDemo.Services
         public void SaveRentalRequest(CarRentalDemo.Models.RentalRequest request)
         {
             var requests = GetAllRentalRequests();
+
             requests.Add(request);
 
             string json = serializer.Serialize(requests);
@@ -48,14 +47,26 @@ namespace CarRentalDemo.Services
             {
                 string json = File.ReadAllText(dataFilePath);
                 var requests = serializer.Deserialize<List<CarRentalDemo.Models.RentalRequest>>(json);
+
+                if (requests != null)
+                {
+                    foreach (var request in requests)
+                    {
+                        request.StartDate = request.StartDate.AddHours(3).Date;
+                        request.EndDate = request.EndDate.AddHours(3).Date;
+                        request.RequestDate = request.RequestDate.AddHours(3).Date;
+
+                    }
+
+                    requests.Reverse();
+                }
+
                 return requests ?? new List<CarRentalDemo.Models.RentalRequest>();
             }
-            catch
+            catch (Exception ex)
             {
                 return new List<CarRentalDemo.Models.RentalRequest>();
             }
         }
-
-
     }
 }

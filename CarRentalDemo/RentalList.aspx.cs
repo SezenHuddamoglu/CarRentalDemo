@@ -71,7 +71,6 @@ namespace CarRentalDemo
 
         private void LoadRentalRequests()
         {
-
             var requests = rentalService.GetAllRentalRequests();
 
             if (requests != null && requests.Count > 0)
@@ -106,6 +105,7 @@ namespace CarRentalDemo
             }
 
         }
+
         private void UpdateGridHeaders()
         {
 

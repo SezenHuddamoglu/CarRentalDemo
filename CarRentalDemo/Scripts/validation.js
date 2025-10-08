@@ -12,7 +12,7 @@
         this.startCleanupInterval();
     }
 
-  setupEventDelegation() {
+    setupEventDelegation() {
         document.addEventListener('submit', (e) => {
             if (e.target.tagName === 'FORM') {
                 if (!this.validateForm(e.target)) {
@@ -25,11 +25,11 @@
         document.addEventListener('blur', (e) => {
             const target = e.target;
 
-            if (target.matches('input[type="email"], input[id*="txtEmail"]')) {
+            if (target.matches('input[type="email"], input[id*="Email"], input[name*="email"]')) {
                 this.validateEmail(target);
-            } else if (target.matches('input[type="password"]')) {
+            } else if (target.matches('input[type="password"], input[id*="Password"], input[name*="password"]')) {
                 this.validatePassword(target);
-            } else if (target.matches('input[type="text"][data-required], input[type="text"][required]')) {
+            } else if (target.matches('input[type="text"][data-required], input[type="text"][required], input[data-required]')) {
                 this.validateRequired(target);
             }
         }, true);
@@ -46,7 +46,6 @@
             }
         });
     }
-
     cleanupASPValidation() {
         const validationSelectors = [
             'span[class*="validator"]',
@@ -154,10 +153,10 @@
         this.clearValidationMessage(input);
         return true;
     }
-
     validatePassword(input) {
         const password = input.value;
-        const passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d@$!%*?&]{6,}$/;
+
+        const passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{6,}$/;
 
         this.cleanupASPValidation();
 
@@ -173,8 +172,7 @@
 
         this.clearValidationMessage(input);
         return true;
-    }
-
+   }
     validateRequired(input) {
         const value = input.value.trim();
 
